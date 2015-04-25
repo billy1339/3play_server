@@ -7,8 +7,17 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-
 gem 'pg'
+
+gem 'rack-cors', require: 'rack/cors'
+
+gem 'rails_12factor', group: :production
+
+gem 'dotenv-rails'
+
+gem 'pry-rails'
+
+gem 'pry-byebug'
 
 
 
