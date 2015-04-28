@@ -39,7 +39,7 @@ actor3 = Actor.create({name: "Mark Ruffalo", url: "http://ia.media-imdb.com/imag
 actor4 = Actor.create({name: "Chris Hemsworth", url: "http://ia.media-imdb.com/images/M/MV5BOTU2MTI0NTIyNV5BMl5BanBnXkFtZTcwMTA4Nzc3OA@@._V1_SX214_CR0,0,214,317_AL_.jpg", movie_id: movie4.id})
 actor5 = Actor.create({name: "Scarlett Johansson", url: "http://ia.media-imdb.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_SY317_CR23,0,214,317_AL_.jpg", movie_id: movie4.id})
 
-movie5 = Movie.create({title: "Amazing Movie!"})
+movie5 = Movie.create({title: "Inception"})
 actor1 = Actor.create({name: "Leonardo CiCaprio", url: "http://ia.media-imdb.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_SY317_CR10,0,214,317_AL_.jpg", movie_id: movie5.id})
 actor2 = Actor.create({name: "Joseph Gordon-Levitt", url: "http://ia.media-imdb.com/images/M/MV5BMTQzOTg0NTkzNF5BMl5BanBnXkFtZTcwNTQ4MTcwOQ@@._V1_SY317_CR35,0,214,317_AL_.jpg", movie_id: movie5.id})
 actor3 = Actor.create({name: "Ellen Page", url: "http://ia.media-imdb.com/images/M/MV5BMTU3MzM3MDYzMV5BMl5BanBnXkFtZTcwNzk1Mzc3NA@@._V1_SX214_CR0,0,214,317_AL_.jpg", movie_id: movie5.id})
